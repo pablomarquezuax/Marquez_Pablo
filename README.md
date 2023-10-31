@@ -12,9 +12,9 @@
 
 5) Cuando se pretende realizar cambios en un repositorio que no es tuyo, es necesario realizar un Fork, esto se hace entrando en el repositorio desde GitHub y pulsando el botón de "Fork", que se encuentra en la esquina superior derecha. Mediante esta función, se copiará dicho repositorio en tu cuenta de GitHub, donde se pueden hacer los cambios pertinentes y seguidamente realizar un pull request al repositorio original si se pretende que el autor del repositorio incluya las cambios en su código.
 
-6) a) Dado que el archivo "archivo.txt" está dentro del directorio "UAX", este es el directorio al que se pretende acceder. Por lo tanto, el comando que se debe ejecutar en el terminal es "cd UAX", el cual nos llevará directamente a dicho directorio. Se trata de una ruta absoluta, dado que estamos pasando por todos los directorios existentes en la ruta absoluta para llegar a "UAX".
+6) A) Dado que el archivo "archivo.txt" está dentro del directorio "UAX", este es el directorio al que se pretende acceder. Por lo tanto, el comando que se debe ejecutar en el terminal es "cd UAX", el cual nos llevará directamente a dicho directorio. Se trata de una ruta absoluta, dado que estamos pasando por todos los directorios existentes en la ruta absoluta para llegar a "UAX".
 
-6) b) Dentro del directorio Universidad, también se podría utilizar el comando "cd UAX", el cual nos llevaría al directorio que contiene el archivo "archivo.txt". Esto se trata de una ruta relativa, puesto que no se parte del directorio raíz.
+   B) Dentro del directorio Universidad, también se podría utilizar el comando "cd UAX", el cual nos llevaría al directorio que contiene el archivo "archivo.txt". Esto se trata de una ruta relativa, puesto que no se parte del directorio raíz.
 
 7)
   1. b) git clone
@@ -27,8 +27,10 @@
   8. d) git merge
   9. a) git reset --hard
   10. c) git log
-  
-8) - En primer lugar, antes de realizar el merge, es imprescindible asegurarse de que no se ha eliminado información importante, ni se van a introducir archivos corruptos a la rama de desarrollo, que puedan arriesgar la integridad del programa.
+
+
+8)
+ - En primer lugar, antes de realizar el merge, es imprescindible asegurarse de que no se ha eliminado información importante, ni se van a introducir archivos corruptos a la rama de desarrollo, que puedan arriesgar la integridad del programa.
   
    - Seguidamente, de cara a empezar a realizar el merge, habría que ejecutar el comando "git checkout develop", para situarse en la rama en la cual se pretende integrar la nueva rama.
      
